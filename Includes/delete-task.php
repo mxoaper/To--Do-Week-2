@@ -1,8 +1,13 @@
-<?php 
-	$task_id = strip_tags($_POST['id']);
-	require('connect.php');
-	$mysqli = new mysqli('localhost', 'root', 'root', 'tasks');
+<?php  
 
-	if ($result = $mysqli->query("DELETE FROM tasks WHERE id= 'task_id'")) {
+$task_id = strip_tags($_POST['id']);
 
-	}
+include('connect.php');
+
+$mysqli = new mysqli('localhost' , 'root' , 'root' , 'to-do2');
+
+if ($result = $mysqli->query("DELETE FROM tasks WHERE id='$task_id'")) {
+	
+}
+
+?>
