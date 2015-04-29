@@ -3,8 +3,9 @@
 
  ?>
 
- <h1>Login</h1>
 
+<div class="login-card">
+ <h1>Login</h1>
  <form method="post" action="<?php echo $path . "controller/login-user.php"; ?>"> 	
       <div>
 		<label for="username">Username: </label>
@@ -17,7 +18,11 @@
 	</div>
 
 	<div>
-		<button type="submit">Submit:</button>
+		<input type="submit" name="login" class="login login-submit" value="login">
 	</div>
  </form>
+   <div class="login-help">
+    <a href="register.php">Register</a>
+  </div>
+ </div>
 
