@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>	
+<html style="background-image: url("abstract.jpg"); ">
 <head>
 		<title>To-Do List </title>
 		<link rel="stylesheet" type="text/css" href="css2/main2.css">	
@@ -7,6 +7,7 @@
 
 </head>	
 <body>
+	<div class="box">
 		<div class="wrap">
 			<div class="task-list">
 			 		<ul>
@@ -72,5 +73,6 @@
 		});
 
 	</script>
+	</div>
 
 </html>

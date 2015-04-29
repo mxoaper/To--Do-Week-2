@@ -18,11 +18,12 @@
 	</div>
 
 	<div>
-		<input type="submit" name="login" class="login login-submit" value="login">
+		<input type="submit" name="login" class="login login-submit" value="login!">
 	</div>
  </form>
    <div class="login-help">
     <a href="register.php">Register</a>
   </div>
  </div>
+
 

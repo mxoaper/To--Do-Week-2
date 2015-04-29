@@ -21,5 +21,6 @@
     	 echo "<p>" . $_SESSION["connection"]->error. "</p>";
     }
 
-
+    // Redirects to the Login Page
+    header("Location: " . $path . "login.php");
 
